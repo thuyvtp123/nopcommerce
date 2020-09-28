@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="False" name="Nopcommerce">
+  <test name="Run on FIREFOX UI">
+  <parameter name="browser" value="firefox_ui"/>
+    <classes>
+      <class name="tiki.atantis.user.Register"/>
+    </classes>
+  </test> <!-- Test -->
+ 
+  <test name="Run on CHROME UI">
+  <parameter name="browser" value="chrome_ui"/>
+  
+    <classes>
+      <class name="tiki.atantis.user.Register"/>
+    </classes>
+  </test> <!-- Test -->
+ 
+  <test name="Run on CHROME HEADLESS">
+  <parameter name="browser" value="chrome_headless"/>
+  
+    <classes>
+      <class name="tiki.atantis.user.Register"/>
+    </classes>
+  </test> <!-- Test -->
+ 
+  <test name="Run on FIREFOX HEADLESS">
+  <parameter name="browser" value="firefox_headless"/>
+  
+    <classes>
+      <class name="tiki.atantis.user.Register"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
